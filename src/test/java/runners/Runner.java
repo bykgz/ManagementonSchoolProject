@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         "junit:target/xml-reports/cucumber.xml",  //xml formatında rapor için
         "rerun:TestOutput/failed_scenario.txt"},  // rerun plugin'i sayesinde fail olan scenariolarımızı yolunu belirttiğimiz  txt dosya içi tutacaktır
         features = "src/test/resources",
-        glue = "stepDefinition",
+        glue = "stepDefinitions",
         tags = "@all",
         dryRun = false,
         monochrome = true
